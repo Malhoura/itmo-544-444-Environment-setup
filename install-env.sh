@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get -y update
-sudo apt-get -y apache2 git
+sudo apt-get install -y apache2 git
 
 git clone https://github.com/Malhoura/itmo-544-444-Application-setup.git
 
